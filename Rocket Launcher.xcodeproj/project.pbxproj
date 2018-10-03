@@ -12,6 +12,7 @@
 		75E177DB21652B7C00D76034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E177D921652B7C00D76034 /* Main.storyboard */; };
 		75E177DD21652B7D00D76034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E177DC21652B7D00D76034 /* Assets.xcassets */; };
 		75E177E021652B7D00D76034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E177DE21652B7D00D76034 /* LaunchScreen.storyboard */; };
+		75E177E821652BDF00D76034 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75E177E721652BDF00D76034 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		75E177DC21652B7D00D76034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75E177DF21652B7D00D76034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75E177E121652B7D00D76034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E177E721652BDF00D76034 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 		75E177D421652B7C00D76034 /* Rocket Launcher */ = {
 			isa = PBXGroup;
 			children = (
-				75E177D521652B7C00D76034 /* AppDelegate.swift */,
+				75E177E721652BDF00D76034 /* hustle-on.wav */,
 				75E177D721652B7C00D76034 /* ViewController.swift */,
+				75E177D521652B7C00D76034 /* AppDelegate.swift */,
 				75E177D921652B7C00D76034 /* Main.storyboard */,
 				75E177DC21652B7D00D76034 /* Assets.xcassets */,
 				75E177DE21652B7D00D76034 /* LaunchScreen.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E177E821652BDF00D76034 /* hustle-on.wav in Resources */,
 				75E177E021652B7D00D76034 /* LaunchScreen.storyboard in Resources */,
 				75E177DD21652B7D00D76034 /* Assets.xcassets in Resources */,
 				75E177DB21652B7C00D76034 /* Main.storyboard in Resources */,
@@ -291,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ratajczak.artur.Rocket-Launcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ratajczak.artur.Rocket-Launcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
